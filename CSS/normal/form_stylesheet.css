@@ -1,0 +1,153 @@
+/*form_stylesheet*/
+
+form{
+font-family: Open Sans;
+width: 800px;
+height: auto;
+}
+
+form>label:not([disable]){
+width: 800px;
+display: block;
+margin-top: 5px;
+padding-left: 5px;
+padding-right: 5px;
+}
+
+label:([disable]){
+max-width:150px;
+padding-left: 5px;
+padding-right: 5px;
+}
+
+form>label>span{
+width: 95px;
+padding-right: 5px;
+display: block;
+text-align: right;
+line-height: 22px;
+}
+
+form>label>input, form>label>select{
+width: 460px;
+display: block;
+line-height: 18px;
+font-family: Open Sans;
+}
+
+form>label>textarea{
+width: 800px;
+height: 180px;
+display: block;
+line-height: 18px;
+resize:vertical;
+font-family: Open Sans;
+}
+
+form>label>input.submit {
+margin-top: 10px;
+width: 150px;
+font-family: 'Open Sans', sans-serif;
+border: 0;
+border-bottom: solid 3px rgb(162, 162, 162);
+color: #fff;
+background: #c1c1c1;
+outline: none !important;
+display: inline-block;
+padding: 6px 2px;
+margin-bottom: 0;
+font-size: 15px;
+font-weight: 400;
+line-height: 1.42857143;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+-ms-touch-action: manipulation;
+touch-action: manipulation;
+cursor: pointer;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+border-radius: 4px;
+margin-left:2px;
+}
+
+form>label>#red.submit{
+border-bottom: solid 3px rgb(160, 0, 0);
+color: #fff;
+background: #ff0000;
+}
+
+form>label>#green.submit{
+border-bottom: solid 3px rgb(0, 160, 0);
+color: #fff;
+background: #35d621;
+}
+
+form>label>#blue.submit{
+border-bottom: solid 3px rgb(0, 0, 253);
+color: #fff;
+background: #2196f3;
+}
+
+form>label>#orange.submit{
+border-bottom: solid 3px rgb(169, 101, 2);
+color: #fff;
+background: #ff9800;
+}
+
+form>label>input.submit:hover {
+background-color:rgb(162,162,162);
+}
+
+form>label>#red.submit:hover {
+background-color:rgb(162,0,0);
+}
+
+form>label>#green.submit:hover {
+background-color:rgb(0,162,0);
+}
+
+form>label>#blue.submit:hover {
+background-color:rgb(0,0,253);
+}
+
+form>label>#orange.submit:hover {
+background-color:rgb(169,101,2);
+}
+
+form>label>#big.submit{
+min-width:170px;
+height:50px
+}
+
+form>label>.big{
+min-width:170px;
+height:50px
+}
+
+form>label>.long{
+min-width:180px;
+}
+
+form>label>.small{
+max-width:80px;
+height:35px;
+}
+
+form>label>.small-big{
+max-width:80px;
+height:55px;
+}
+
+form>label>.small-long{
+max-width:130px;
+height:35px;
+}
+
+footer>span{
+color:rgb(55,55,55);
+font-family: Open Sans;
+}
+}

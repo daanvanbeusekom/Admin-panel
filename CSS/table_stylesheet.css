@@ -1,0 +1,69 @@
+/*table CSS*/
+
+table{
+width: 100%;
+max-height: 576px;
+border-spacing: 0;
+margin-top:40px;
+}
+
+table>thead{
+background-color: rgb(245,245,245);
+height:50px;
+}
+
+table>thead>tr{
+background-color: rgb(245,245,245);
+border-bottom: solid 2px rgb(210,210,210);
+}
+
+table>thead>tr>th{
+text-align: left;
+line-height: 25px;
+background-color: rgb(245,245,245);
+border-bottom: solid 2px rgb(210,210,210);
+}
+
+table>tbody{  
+    overflow:scroll;
+}
+
+table>tbody>tr{
+line-height: 60px;
+overflow-y: scroll; 
+overflow-x: no;
+}
+
+table>tbody>tr:nth-child(even){
+background-color: rgb(230,230,230);
+}
+
+table>tbody>tr>td[id=note]{
+width: 20%;
+}
+
+table>thead>tr>th{
+font-family: 'Open Sans', sans-serif;
+font-size:22px;
+}
+
+table>tbody>tr>td{
+font-family: 'Open Sans', sans-serif;
+}
+
+#table-wrapper {
+  position:relative;
+}
+#table-scroll {
+height:400px;
+  overflow:auto;  
+  margin-top:20px;
+}
+#table-wrapper table {
+  width:100%;
+
+}
+
+#table-wrapper table thead th .text {
+  position:absolute;   
+}

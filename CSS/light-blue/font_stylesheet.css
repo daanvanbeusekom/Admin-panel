@@ -1,0 +1,12 @@
+/* Font Stylesheet */
+
+@font-face {
+font-family: OpenSans-Light;
+src: url(../../FONTS/OpenSans-Light.ttf);
+}
+
+@font-face {
+font-family: OpenSans-Bold;
+src: url(../../FONTS/OpenSans-Bold.ttf);
+}
+
